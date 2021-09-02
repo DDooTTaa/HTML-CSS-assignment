@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  border: 10px #20ccb6 solid;
+  font-family: "Last Ninja", Impact;
+  overflow-y:auto;
+  overflow-x:hidden;
+  flex-direction: column;
+  padding: 20px 10px 0px 80px;
+}
+
+.section{
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+
+h2 {
+  display: flex;
+  width: 100vh;
+  justify-content: center;  
+  font-weight: bold;
+ font-size: xxx-large;
+}
+
+.main-picture {
+  border-radius: 10px;
+  background-color: #ffbd11;
+  height: 200px;
+  width: 200px;
+  border: 3px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-5x {
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.main-song {
+  margin-left: 30px;
+}
+
+.aria {
+  width: 250px;
+  height: 110px;
+  border: 3px solid black;
+  box-shadow: 0px 5px;
+  margin-right: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+paly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 110px;
+  border-radius: 50%;
+}
+
+.fa-caret-square-right {
+  margin-right: 20px;
+}
+
+p {
+  font-size: xx-large;
+  margin-top: 5px;
+}
+
+.content {
+ width: 80px;
+  height: 80px;
+  border: 3px solid black;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.blur-font {
+  font-size: x-large;
+  opacity: 0.5;
+  margin-top: 12px;
+}
+
+.red {
+  background-color: #f85a2a;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+.teal {
+  background-color: teal;
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color:#e6e6ed;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+ wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 800px;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 30px 20px;
+    flex-direction: column;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 40px 10px;
+
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-songs {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-song {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 3px 8px 0px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    opacity: 40%;
+    margin-bottom: 20px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+ .btn {
+     height: 50px;
+     width: 140px;
+     background-color: black;
+     display: flex;
+     border-radius: 30px;
+     box-shadow: 0px 1px 10px 0px;
+     justify-content: center;
+     align-items: center;
+}
+
+.like {
+    background-color:#F7F7F7;
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.fa-heart{
+    margin-right: 5px;
+}
+
+.list-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.list {
+    display: flex;
+    margin-top: 15px;
+}
+
+.song-text{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+}
+
+h5 {
+    opacity: 40%;
+}
+
+.opa {
+    opacity: 30%;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 40%;
+}
+.fa-spinner {
+    position: relative;
+    left: -280px;
+}
+
+.playing {
+    margin-top: 15px;
+    height: 70px;
+    width: 120%;
+    background-color: black;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playing-song {
+    display: flex;
+}
+
+ul {
+    margin: 0px 10px;
+}
+
+.white {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.playing-icon {
+    color: white;
+    margin-right: 30px;
+}
+
+.fa-equals {
+    transform: rotate(90deg);
+    margin: 0px 10px;
+}
+
+.back-songs {
+    margin-top: 60px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-song {    
+    border-radius: 30px;
+    width: 280px;
+    height: 280px;
+    box-shadow: 0px 18px 18px 5px #f5d9ae;
+    margin: 0px 0px 60px 0px;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none; 
+    width: 100%; 
+    height: 6px;
+    background: #d5d4d3; 
+    cursor: pointer;
+    border-radius: 0; /* iOS */
+    overflow-x: auto    ;
+  }
+
+  input[type=range]:focus {
+    outline: none; 
+  }
+
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background: black;
+    box-shadow: -100vh 0 0 100vh black;
+    border-radius:50%;
+    cursor: pointer;
+  }
+
+  span {
+      display: flex;
+      width: 100%;
+      align-content: space-between;
+      margin-bottom: 5px;
+  }
+
+ .first {
+      width: 100%;
+      display: flex;
+      opacity: 30%;
+  }
+  
+  .second {
+      display: flex;
+      align-items: flex-end;
+      opacity: 30%;
+  }
+
+  .compo {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .black-circle {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+  }
+
+  .fa-3x{
+      color: white;
+  }
+
+  .fa-angle-double-up {
+      opacity: 40%;
+  }
+
+  .fa-random {
+      opacity: 40%;
+  }
